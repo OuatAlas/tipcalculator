@@ -145,9 +145,6 @@ fun EditNumberField(
     )
 }
 
-/**
- * Ligne « Round up tip? » avec un interrupteur.
- */
 @Composable
 fun RoundTheTipRow(
     roundUp: Boolean,
@@ -171,11 +168,6 @@ fun RoundTheTipRow(
     }
 }
 
-/**
- * Calculates the tip based on the user input and format the tip amount
- * according to US dollars.
- * Example would be "$10.00".
- */
 @VisibleForTesting
 internal fun calculateTip(
     amount: Double,
